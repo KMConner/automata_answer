@@ -68,3 +68,43 @@ $$
 | $\phi$ |   S    | $\phi$ |        |        |        |     |
 |   C    | $\phi$ |        |        |        |        |     |
 |   S    |        |        |        |        |        |     |
+
+|   a    |   a    |   b    |   a    |   b    |  b  |  a  |
+| ------ | ------ | ------ | ------ | ------ | --- | --- |
+|   A    |   A    |   B    |   A    |   B    |  B  |  A  |
+| $\phi$ |   F    |   E    |   F    | $\phi$ |  E  |     |
+| $\phi$ |   S    |   S    | $\phi$ | $\phi$ |     |     |
+|   C    |   C    | $\phi$ | $\phi$ |        |     |     |
+| $\phi$ | $\phi$ | $\phi$ |        |        |     |     |
+| $\phi$ | $\phi$ |        |        |        |     |     |
+| $\phi$ |        |        |        |        |     |     |
+
+(d)
+
+$$
+P = \{
+A \rightarrow a,\
+B \rightarrow b,\
+S \rightarrow aSA,\
+S \rightarrow bSB,\
+S \rightarrow bAB,\
+S \rightarrow aBA,\
+C \rightarrow aS,\
+D \rightarrow bS,\
+E \rightarrow bA,\
+F \rightarrow aB,\
+S \rightarrow \epsilon \}
+$$
+
+# 10
+
+$$
+P = \{
+S \rightarrow SS,\
+S \rightarrow AC,\
+S \rightarrow BD,\
+C \rightarrow SA,\
+D \rightarrow SB,\
+A \rightarrow a,\
+B \rightarrow b \}
+$$
